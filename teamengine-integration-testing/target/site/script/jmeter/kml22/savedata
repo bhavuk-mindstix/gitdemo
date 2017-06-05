@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="624" ts="1495540979844" s="true" lb="31 /te2/" rc="200" rm="OK" tn="kml22 1-1" by="3190" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/</java.net.URL>
+</httpSample>
+<httpSample t="236" ts="1495540980503" s="true" lb="32 /te2/viewSessions.jsp" rc="200" rm="OK" tn="kml22 1-1" by="1914" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessions.jsp</java.net.URL>
+</httpSample>
+<httpSample t="898" ts="1495540980764" s="true" lb="33 /te2/j_security_check" rc="200" rm="OK" tn="kml22 1-1" by="7999" ng="1" na="1">
+  <httpSample t="352" ts="1495540980764" s="true" lb="http://cite.opengeospatial.org/te2/j_security_check" rc="302" rm="Found" tn="kml22 1-1" by="212" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2/j_security_check</java.net.URL>
+  </httpSample>
+  <httpSample t="543" ts="1495540981119" s="true" lb="http://cite.opengeospatial.org/te2/viewSessions.jsp" rc="200" rm="OK" tn="kml22 1-1" by="7787" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2/viewSessions.jsp</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessions.jsp</java.net.URL>
+</httpSample>
+<httpSample t="236" ts="1495540981692" s="true" lb="35 /te2/createSession.jsp" rc="200" rm="OK" tn="kml22 1-1" by="5297" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/createSession.jsp</java.net.URL>
+</httpSample>
+<httpSample t="253" ts="1495540981958" s="true" lb="36 /te2/test.jsp" rc="200" rm="OK" tn="kml22 1-1" by="1885" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test.jsp</java.net.URL>
+</httpSample>
+<httpSample t="238" ts="1495540982235" s="true" lb="37 /te2/testControls.html" rc="200" rm="OK" tn="kml22 1-1" by="1371" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/testControls.html</java.net.URL>
+</httpSample>
+<httpSample t="231" ts="1495540982498" s="true" lb="38 /te2/executing.html" rc="200" rm="OK" tn="kml22 1-1" by="955" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/executing.html</java.net.URL>
+</httpSample>
+<httpSample t="247" ts="1495540982748" s="false" lb="formResult" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="942" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=Test&amp;mode=test&amp;sources=OGC_OGC%20KML_2.2_1.13-SNAPSHOT&amp;suite=&amp;description=&amp;t=1455018026411</java.net.URL>
+</httpSample>
+<httpSample t="498" ts="1495540983017" s="true" lb="40 /te2/console.html" rc="200" rm="OK" tn="kml22 1-1" by="966" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/console.html?t=1455018026411</java.net.URL>
+</httpSample>
+<httpSample t="236" ts="1495540983552" s="false" lb="41 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018030517</java.net.URL>
+</httpSample>
+<httpSample t="501" ts="1495540983817" s="false" lb="42 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="941" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetForm&amp;thread=61&amp;t=1455018030517</java.net.URL>
+</httpSample>
+<httpSample t="520" ts="1495540984336" s="false" lb="43 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018034542</java.net.URL>
+</httpSample>
+<httpSample t="501" ts="1495540984881" s="false" lb="44 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018038563</java.net.URL>
+</httpSample>
+<httpSample t="726" ts="1495540985404" s="false" lb="45 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="877" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test</java.net.URL>
+</httpSample>
+<httpSample t="528" ts="1495540986166" s="false" lb="46 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018039546</java.net.URL>
+</httpSample>
+<httpSample t="488" ts="1495540986714" s="false" lb="47 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018043585</java.net.URL>
+</httpSample>
+<httpSample t="479" ts="1495540987215" s="false" lb="48 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018047603</java.net.URL>
+</httpSample>
+<httpSample t="512" ts="1495540987711" s="false" lb="49 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018051620</java.net.URL>
+</httpSample>
+<httpSample t="526" ts="1495540988254" s="false" lb="50 /te2/test" rc="500" rm="Internal Server Error" tn="kml22 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=61&amp;t=1455018055652</java.net.URL>
+</httpSample>
+<httpSample t="0" ts="1495540989802" s="false" lb="checkResult" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 63: http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}&amp;t=1455018055671" tn="kml22 1-1" by="992" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}&amp;t=1455018055671</java.net.URL>
+</httpSample>
+<httpSample t="0" ts="1495541009824" s="false" lb="52 /te2/viewTestLog.jsp" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 57: http://cite.opengeospatial.org/te2/viewTestLog.jsp?test=${sessionid}" tn="kml22 1-1" by="970" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /Conformance Level 1
+    Passed: 41 | Failed: 1 | Skipped: 0/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewTestLog.jsp?test=${sessionid}</java.net.URL>
+</httpSample>
+<httpSample t="0" ts="1495541009869" s="false" lb="53 /te2/viewSessionLog.jsp" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 63: http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}" tn="kml22 1-1" by="976" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}</java.net.URL>
+</httpSample>
+
+</testResults>

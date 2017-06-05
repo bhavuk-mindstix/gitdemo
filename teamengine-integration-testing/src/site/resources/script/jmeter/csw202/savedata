@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="670" ts="1495540922758" s="true" lb="1 /te2/" rc="200" rm="OK" tn="CSW 1-1" by="3190" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/</java.net.URL>
+</httpSample>
+<httpSample t="231" ts="1495540923477" s="true" lb="2 /te2/viewSessions.jsp" rc="200" rm="OK" tn="CSW 1-1" by="1914" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessions.jsp</java.net.URL>
+</httpSample>
+<httpSample t="5785" ts="1495540923735" s="true" lb="3 /te2/j_security_check" rc="200" rm="OK" tn="CSW 1-1" by="7963" ng="1" na="1">
+  <httpSample t="336" ts="1495540923735" s="true" lb="http://cite.opengeospatial.org/te2/j_security_check" rc="302" rm="Found" tn="CSW 1-1" by="212" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2/j_security_check</java.net.URL>
+  </httpSample>
+  <httpSample t="5446" ts="1495540924074" s="true" lb="http://cite.opengeospatial.org/te2/viewSessions.jsp" rc="200" rm="OK" tn="CSW 1-1" by="7751" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2/viewSessions.jsp</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessions.jsp</java.net.URL>
+</httpSample>
+<httpSample t="251" ts="1495540929555" s="true" lb="5 /te2/createSession.jsp" rc="200" rm="OK" tn="CSW 1-1" by="5297" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/createSession.jsp</java.net.URL>
+</httpSample>
+<httpSample t="259" ts="1495540929831" s="true" lb="6 /te2/test.jsp" rc="200" rm="OK" tn="CSW 1-1" by="1904" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test.jsp</java.net.URL>
+</httpSample>
+<httpSample t="256" ts="1495540930122" s="false" lb="formResult" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="942" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=Test&amp;mode=test&amp;sources=OGC_Catalogue%20Service%20-%20Web%20(CSW)_2.0.2_1.17-SNAPSHOT&amp;suite=&amp;description=&amp;t=1438240294210</java.net.URL>
+</httpSample>
+<httpSample t="470" ts="1495540930427" s="true" lb="8 /te2/console.html" rc="200" rm="OK" tn="CSW 1-1" by="966" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/console.html?t=1438240294210</java.net.URL>
+</httpSample>
+<httpSample t="246" ts="1495540930924" s="false" lb="9 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=336&amp;t=1438240298845</java.net.URL>
+</httpSample>
+<httpSample t="517" ts="1495540931202" s="false" lb="10 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="941" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetForm&amp;thread=336&amp;t=1438240298845</java.net.URL>
+</httpSample>
+<httpSample t="535" ts="1495540931742" s="false" lb="11 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="942" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=SubmitForm&amp;te-thread=336&amp;capabilities.url=http%3A%2F%2Fdemo.pycsw.org%2Fcite%2Fcsw%3Fservice%3DCSW%26version%3D2.0.2%26request%3DGetCapabilities</java.net.URL>
+</httpSample>
+<httpSample t="509" ts="1495540932331" s="false" lb="12 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=336&amp;t=1438240302752</java.net.URL>
+</httpSample>
+<httpSample t="477" ts="1495540932860" s="false" lb="13 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=336&amp;t=1438240307252</java.net.URL>
+</httpSample>
+<httpSample t="483" ts="1495540933360" s="false" lb="14 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=336&amp;t=1438240311841</java.net.URL>
+</httpSample>
+<httpSample t="837" ts="1495540933871" s="false" lb="15 /te2/test" rc="500" rm="Internal Server Error" tn="CSW 1-1" by="292" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/test?te-operation=GetStatus&amp;thread=336&amp;t=1438240316400</java.net.URL>
+</httpSample>
+<httpSample t="0" ts="1495540934741" s="false" lb="checkResult" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 63: http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}&amp;t=1438240316945" tn="CSW 1-1" by="992" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}&amp;t=1438240316945</java.net.URL>
+</httpSample>
+<httpSample t="718" ts="1495540934788" s="true" lb="17 /te2/images/minus.png" rc="200" rm="OK" tn="CSW 1-1" by="27130" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/minus.png</java.net.URL>
+</httpSample>
+<httpSample t="247" ts="1495540935521" s="true" lb="18 /te2/images/inheritedFailure.png" rc="200" rm="OK" tn="CSW 1-1" by="1015" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/inheritedFailure.png</java.net.URL>
+</httpSample>
+<httpSample t="232" ts="1495540935787" s="true" lb="19 /te2/images/pass.png" rc="200" rm="OK" tn="CSW 1-1" by="1091" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/pass.png</java.net.URL>
+</httpSample>
+<httpSample t="239" ts="1495540936038" s="true" lb="21 /te2/images/bestPractice.png" rc="200" rm="OK" tn="CSW 1-1" by="997" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/bestPractice.png</java.net.URL>
+</httpSample>
+<httpSample t="233" ts="1495540936304" s="true" lb="20 /te2/images/fail.png" rc="200" rm="OK" tn="CSW 1-1" by="1104" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/fail.png</java.net.URL>
+</httpSample>
+<httpSample t="242" ts="1495540936552" s="true" lb="22 /te2/images/continue.png" rc="200" rm="OK" tn="CSW 1-1" by="838" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/continue.png</java.net.URL>
+</httpSample>
+<httpSample t="240" ts="1495540936805" s="true" lb="23 /te2/images/skipped.png" rc="200" rm="OK" tn="CSW 1-1" by="841" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/skipped.png</java.net.URL>
+</httpSample>
+<httpSample t="252" ts="1495540937054" s="true" lb="23 /te2/images/warn.png" rc="200" rm="OK" tn="CSW 1-1" by="989" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/warn.png</java.net.URL>
+</httpSample>
+<httpSample t="242" ts="1495540937322" s="true" lb="24 /te2/images/notTested.png" rc="200" rm="OK" tn="CSW 1-1" by="857" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/images/notTested.png</java.net.URL>
+</httpSample>
+<httpSample t="730" ts="1495540937578" s="true" lb="26 /te2/logout" rc="200" rm="OK" tn="CSW 1-1" by="3993" ng="1" na="1">
+  <httpSample t="234" ts="1495540937578" s="true" lb="http://cite.opengeospatial.org/te2/logout" rc="302" rm="Found" tn="CSW 1-1" by="285" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2/logout</java.net.URL>
+  </httpSample>
+  <httpSample t="248" ts="1495540937813" s="true" lb="http://cite.opengeospatial.org/te2" rc="302" rm="Found" tn="CSW 1-1" by="519" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2</java.net.URL>
+  </httpSample>
+  <httpSample t="246" ts="1495540938062" s="true" lb="http://cite.opengeospatial.org/te2/" rc="200" rm="OK" tn="CSW 1-1" by="3189" ng="1" na="1">
+    <java.net.URL>http://cite.opengeospatial.org/te2/</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://cite.opengeospatial.org/te2/</java.net.URL>
+</httpSample>
+<httpSample t="0" ts="1495540938331" s="false" lb="25 /te2/viewSessionLog.jsp" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 63: http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}&amp;t=1438240316945" tn="CSW 1-1" by="992" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/viewSessionLog.jsp?session=${sessionid}&amp;t=1438240316945</java.net.URL>
+</httpSample>
+<httpSample t="243" ts="1495540938350" s="true" lb="27 /te2/" rc="200" rm="OK" tn="CSW 1-1" by="3189" ng="1" na="1">
+  <java.net.URL>http://cite.opengeospatial.org/te2/</java.net.URL>
+</httpSample>
+
+</testResults>
