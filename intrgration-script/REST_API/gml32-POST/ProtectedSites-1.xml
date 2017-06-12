@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:FeatureCollection gml:id="idb4d6b5c4-508c-48b5-a825-5035fa8fdace"
+  xmlns:ps="urn:x-inspire:specification:gmlas:ProtectedSites:3.0"
+  xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0"
+  xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:x-inspire:specification:gmlas:ProtectedSites:3.0 http://inspire.ec.europa.eu/schemas/ps/3.0/ProtectedSites.xsd">
+  <gml:boundedBy>
+    <gml:Envelope srsName="http://www.opengis.net/def/crs/EPSG/0/4258">
+      <gml:lowerCorner>53.8008574951178 9.41768464507402</gml:lowerCorner>
+      <gml:upperCorner>65.7171909405306 27.7309736545868</gml:upperCorner>
+    </gml:Envelope>
+  </gml:boundedBy>
+  <gml:featureMember>
+    <ps:ProtectedSite gml:id="EN.NMA.PS.7174d7fb-7b0f-4153-821b-1c758032c83d">
+      <ps:geometry>
+        <gml:Surface gml:id="EN.NMA.PS.7174d7fb-7b0f-4153-821b-1c758032c83d-0" srsName="http://www.opengis.net/def/crs/EPSG/0/4258">
+          <gml:patches>
+            <gml:PolygonPatch>
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>59.5360477814724 25.4590805317183 59.6589992799923 25.4895635853211
+                    59.6537158552065 25.5352391754789 59.5752512150415 25.6814925268083
+                    59.5614877595545 25.6891086691195 59.5700441077054 25.723730866532
+                    59.5850435078806 25.7262924872897 59.5901056385805 25.6873311283237
+                    59.7064386839722 25.6372250238404 59.695887071572 25.8019187082105
+                    59.6404288798757 25.9153028073086 59.6465132198172 26.0028497579856
+                    59.6354467212139 26.0607131607415 59.6161785963115 26.1137183096798
+                    59.5975476061487 26.1169588932681 59.6018656343657 26.2726304175546
+                    59.5857409197073 26.2721631372482 59.5659884419989 26.2583405942434
+                    59.5569094622489 26.2543236656291 59.5515307847173 26.2362802180443
+                    59.5466136479967 26.2146568817346 59.5457096125731 26.185781621514
+                    59.5447750575472 26.1575167573229 59.541612674345 26.130709040864
+                    59.5359936903694 26.1034949783362 59.5310803864833 26.0812950462358
+                    59.5177976498684 26.0454979558634 59.5105268694012 26.0351335219888
+                    59.5038129830416 26.033409313874 59.4998800070367 26.0461773458844
+                    59.493139426662 26.0523760972079 59.4834920779695 26.047111624293
+                    59.4763127898962 26.063599028575 59.4517156529045 26.025385272718
+                    59.4459058653001 26.019732081308 59.4467414457329 25.9275266395761
+                    59.4637855892498 25.8478438039453 59.4582429032001 25.7840582288528
+                    59.4548212459929 25.6710746763395 59.4687296599862 25.6601910532831
+                    59.4909654990331 25.6506986694311 59.5039126197337 25.6230839219895
+                    59.5056101798201 25.5836474604178 59.4921328769906 25.5847178789128
+                    59.4860751250984 25.5671950798363 59.4855487482383 25.5469635529716
+                    59.4845989177661 25.5236615681572 59.4845607845944 25.5005007544766
+                    59.4827564477049 25.4831686768163 59.4935901685289 25.4738170644253
+                    59.5014446344352 25.4780379633807 59.5165546731946 25.4778547406333
+                    59.5160969152445 25.4655886466037 59.5271252081409 25.4593016825612
+                    59.5360477814724 25.4590805317183</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:PolygonPatch>
+          </gml:patches>
+        </gml:Surface>
+      </ps:geometry>
+      <ps:inspireID>
+        <base:Identifier>
+          <base:localId>88</base:localId>
+          <base:namespace>EN.NMA.PS</base:namespace>
+          <base:versionId>1</base:versionId>
+        </base:Identifier>
+      </ps:inspireID>
+      <ps:legalFoundationDate>1900-01-01T00:00:00.0Z</ps:legalFoundationDate>
+      <ps:legalFoundationDocument xsi:nil="true"/>
+      <ps:siteDesignation>
+        <ps:DesignationType>
+          <ps:designationScheme/>
+          <ps:designation>natureConservation</ps:designation>
+          <ps:percentageUnderDesignation>100</ps:percentageUnderDesignation>
+        </ps:DesignationType>
+      </ps:siteDesignation>
+      <ps:siteName>
+        <gn:GeographicalName>
+          <gn:language>EE</gn:language>
+          <gn:nativeness xsi:nil="true"/>
+          <gn:nameStatus xsi:nil="true"/>
+          <gn:sourceOfName xsi:nil="true"/>
+          <gn:pronunciation xsi:nil="true"/>
+          <gn:spelling>
+            <gn:SpellingOfName>
+              <gn:text/>
+              <gn:script xsi:nil="true"/>
+            </gn:SpellingOfName>
+          </gn:spelling>
+        </gn:GeographicalName>
+      </ps:siteName>
+      <ps:siteProtectionClassification>natureConservation</ps:siteProtectionClassification>
+    </ps:ProtectedSite>
+  </gml:featureMember>
+</gml:FeatureCollection>

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><testng-results skipped="9" failed="5" total="33" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gml32-1.25" duration-ms="4252" started-at="2017-06-12T06:59:22Z" finished-at="2017-06-12T06:59:26Z">
+    <groups>
+    </groups>
+    <test name="All GML application schemas" duration-ms="1716" started-at="2017-06-12T06:59:22Z" finished-at="2017-06-12T06:59:24Z">
+      <class name="org.opengis.cite.iso19136.general.ModelAndSyntaxTests">
+        <test-method status="PASS" signature="verifyGMLObjectPropertyPattern()[pri:0, instance:org.opengis.cite.iso19136.general.ModelAndSyntaxTests@165962c0]" name="verifyGMLObjectPropertyPattern" duration-ms="4" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 7.1.3, A.1.1.7" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGMLObjectPropertyPattern -->
+        <test-method status="PASS" signature="initSchemaModelFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.general.ModelAndSyntaxTests@165962c0]" name="initSchemaModelFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1f52e3eb
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSchemaModelFixture -->
+      </class> <!-- org.opengis.cite.iso19136.general.ModelAndSyntaxTests -->
+      <class name="org.opengis.cite.iso19136.general.GeneralSchemaTests">
+        <test-method status="PASS" signature="createSchemaModel(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.general.GeneralSchemaTests@6f131c51]" name="createSchemaModel" is-config="true" duration-ms="176" started-at="2017-06-12T12:29:23Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1f52e3eb
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSchemaModel -->
+        <test-method status="PASS" signature="declareTargetNamespace()[pri:0, instance:org.opengis.cite.iso19136.general.GeneralSchemaTests@6f131c51]" name="declareTargetNamespace" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 21.2.2, A.1.1.1" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- declareTargetNamespace -->
+        <test-method status="PASS" signature="declaresGMLObjects()[pri:0, instance:org.opengis.cite.iso19136.general.GeneralSchemaTests@6f131c51]" name="declaresGMLObjects" duration-ms="2" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 21.2.1, A.1.1.2" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- declaresGMLObjects -->
+        <test-method status="PASS" signature="importFullGMLSchema()[pri:0, instance:org.opengis.cite.iso19136.general.GeneralSchemaTests@6f131c51]" name="importFullGMLSchema" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 21.2.3, A.1.1.3" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importFullGMLSchema -->
+      </class> <!-- org.opengis.cite.iso19136.general.GeneralSchemaTests -->
+      <class name="org.opengis.cite.iso19136.general.XMLSchemaTests">
+        <test-method status="PASS" signature="compileXMLSchema(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.general.XMLSchemaTests@4adb8acb]" name="compileXMLSchema" duration-ms="1528" started-at="2017-06-12T12:29:22Z" description="See ISO 19136: A.1.1.4" finished-at="2017-06-12T12:29:23Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1f52e3eb
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compileXMLSchema -->
+        <test-method status="PASS" signature="getSchemaURIsFromTestContext(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.general.XMLSchemaTests@4adb8acb]" name="getSchemaURIsFromTestContext" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:22Z" finished-at="2017-06-12T12:29:22Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1f52e3eb
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSchemaURIsFromTestContext -->
+      </class> <!-- org.opengis.cite.iso19136.general.XMLSchemaTests -->
+      <class name="org.opengis.cite.iso19136.general.ComplexPropertyTests">
+        <test-method status="PASS" signature="validateMembersOfGmlObjectCollection()[pri:0, instance:org.opengis.cite.iso19136.general.ComplexPropertyTests@6221e510]" name="validateMembersOfGmlObjectCollection" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 7.2.5, A.1.1.14" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMembersOfGmlObjectCollection -->
+        <test-method status="PASS" signature="initSchemaModelFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.general.ComplexPropertyTests@6221e510]" name="initSchemaModelFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1f52e3eb
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSchemaModelFixture -->
+        <test-method status="PASS" signature="validateMetadataProperties()[pri:0, instance:org.opengis.cite.iso19136.general.ComplexPropertyTests@6221e510]" name="validateMetadataProperties" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 7.2.6, A.1.1.9" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMetadataProperties -->
+      </class> <!-- org.opengis.cite.iso19136.general.ComplexPropertyTests -->
+    </test> <!-- All GML application schemas -->
+    <test name="GML application schemas defining features and feature collections" duration-ms="11" started-at="2017-06-12T06:59:24Z" finished-at="2017-06-12T06:59:24Z">
+      <class name="org.opengis.cite.iso19136.components.FeatureComponentTests">
+        <test-method status="PASS" signature="hasFeatureComponents(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.FeatureComponentTests@1263c790]" name="hasFeatureComponents" is-config="true" duration-ms="10" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@62c719d5
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasFeatureComponents -->
+        <test-method status="PASS" signature="initSchemaModelFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.FeatureComponentTests@1263c790]" name="initSchemaModelFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@62c719d5
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSchemaModelFixture -->
+        <test-method status="PASS" signature="substitutesForAbstractFeature()[pri:0, instance:org.opengis.cite.iso19136.components.FeatureComponentTests@1263c790]" name="substitutesForAbstractFeature" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: A.1.1.15" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substitutesForAbstractFeature -->
+        <test-method status="PASS" signature="verifyFeatureMemberProperties()[pri:0, instance:org.opengis.cite.iso19136.components.FeatureComponentTests@1263c790]" name="verifyFeatureMemberProperties" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 9.9, A.1.1.16" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeatureMemberProperties -->
+      </class> <!-- org.opengis.cite.iso19136.components.FeatureComponentTests -->
+    </test> <!-- GML application schemas defining features and feature collections -->
+    <test name="GML application schemas defining spatial geometries" duration-ms="18" started-at="2017-06-12T06:59:24Z" finished-at="2017-06-12T06:59:24Z">
+      <class name="org.opengis.cite.iso19136.components.GeometryComponentTests">
+        <test-method status="FAIL" signature="hasGeometryComponents(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.GeometryComponentTests@39450f81]" name="hasGeometryComponents" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@e43d826
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              No user-defined geometry or geometry property types found in application schema. expected [false] but found [true]
+            </message>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasGeometryComponents -->
+        <test-method status="PASS" signature="substitutesForGMLGeometry()[pri:0, instance:org.opengis.cite.iso19136.components.GeometryComponentTests@39450f81]" name="substitutesForGMLGeometry" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 21.4.2.1" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substitutesForGMLGeometry -->
+        <test-method status="PASS" signature="validateImplicitGeometryProperty()[pri:0, instance:org.opengis.cite.iso19136.components.GeometryComponentTests@39450f81]" name="validateImplicitGeometryProperty" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 9.5, 21.4.2.2, A.1.1.10" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImplicitGeometryProperty -->
+        <test-method status="PASS" signature="initSchemaModelFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.GeometryComponentTests@39450f81]" name="initSchemaModelFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@e43d826
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSchemaModelFixture -->
+      </class> <!-- org.opengis.cite.iso19136.components.GeometryComponentTests -->
+    </test> <!-- GML application schemas defining spatial geometries -->
+    <test name="GML application schemas defining time" duration-ms="1" started-at="2017-06-12T06:59:24Z" finished-at="2017-06-12T06:59:24Z">
+      <class name="org.opengis.cite.iso19136.components.TemporalComponentTests">
+        <test-method status="FAIL" signature="hasTemporalComponents(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.TemporalComponentTests@14062b2a]" name="hasTemporalComponents" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@579da253
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              No temporal (property) components found in schema. expected [false] but found [true]
+            </message>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasTemporalComponents -->
+        <test-method status="PASS" signature="initSchemaModelFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.TemporalComponentTests@14062b2a]" name="initSchemaModelFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@579da253
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSchemaModelFixture -->
+        <test-method status="PASS" signature="substitutesForAbstractTimeObject()[pri:0, instance:org.opengis.cite.iso19136.components.TemporalComponentTests@14062b2a]" name="substitutesForAbstractTimeObject" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 21.6.2.1" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substitutesForAbstractTimeObject -->
+        <test-method status="PASS" signature="validateImplicitTemporalProperty()[pri:0, instance:org.opengis.cite.iso19136.components.TemporalComponentTests@14062b2a]" name="validateImplicitTemporalProperty" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 9.7, 21.6.2.2, A.1.1.12" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImplicitTemporalProperty -->
+      </class> <!-- org.opengis.cite.iso19136.components.TemporalComponentTests -->
+    </test> <!-- GML application schemas defining time -->
+    <test name="GML application schemas defining spatial topologies" duration-ms="0" started-at="2017-06-12T06:59:24Z" finished-at="2017-06-12T06:59:24Z">
+      <class name="org.opengis.cite.iso19136.components.TopologyComponentTests">
+        <test-method status="PASS" signature="substitutesForGMLTopology()[pri:0, instance:org.opengis.cite.iso19136.components.TopologyComponentTests@78daedad]" name="substitutesForGMLTopology" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 21.5.2.1" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substitutesForGMLTopology -->
+        <test-method status="PASS" signature="validateImplicitTopologyProperty()[pri:0, instance:org.opengis.cite.iso19136.components.TopologyComponentTests@78daedad]" name="validateImplicitTopologyProperty" duration-ms="0" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: 9.6, 21.5.2.2, A.1.1.11" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImplicitTopologyProperty -->
+        <test-method status="FAIL" signature="hasTopologyComponents(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.TopologyComponentTests@78daedad]" name="hasTopologyComponents" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1d5c7bb3
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              No GML topology (property) components found in schema. expected [false] but found [true]
+            </message>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasTopologyComponents -->
+        <test-method status="PASS" signature="initSchemaModelFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.components.TopologyComponentTests@78daedad]" name="initSchemaModelFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@1d5c7bb3
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSchemaModelFixture -->
+      </class> <!-- org.opengis.cite.iso19136.components.TopologyComponentTests -->
+    </test> <!-- GML application schemas defining spatial topologies -->
+    <test name="GML Documents" duration-ms="2506" started-at="2017-06-12T06:59:24Z" finished-at="2017-06-12T06:59:26Z">
+      <class name="org.opengis.cite.iso19136.data.spatial.PointTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.spatial.PointTests@1e476518]" name="initDataFixture" is-config="true" duration-ms="1" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="FAIL" signature="findPoints()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.PointTests@1e476518]" name="findPoints" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              gml:Point elements not found. expected [false] but found [true]
+            </message>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPoints -->
+        <test-method status="SKIP" signature="pointHasValidCRS()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.PointTests@1e476518]" name="pointHasValidCRS" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 9.10, 10.1.3.2; ISO 19107: 6.2.2.17" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pointHasValidCRS -->
+        <test-method status="SKIP" signature="pointHasValidPosition()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.PointTests@1e476518]" name="pointHasValidPosition" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19107: 6.2.2.10" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pointHasValidPosition -->
+      </class> <!-- org.opengis.cite.iso19136.data.spatial.PointTests -->
+      <class name="org.opengis.cite.iso19136.data.SchematronTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.SchematronTests@7e439bf8]" name="initDataFixture" is-config="true" duration-ms="1" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="PASS" signature="createSchematronValidator(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.SchematronTests@7e439bf8]" name="createSchematronValidator" is-config="true" duration-ms="1358" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSchematronValidator -->
+        <test-method status="FAIL" signature="checkForDeprecatedGMLElements()[pri:0, instance:org.opengis.cite.iso19136.data.SchematronTests@7e439bf8]" name="checkForDeprecatedGMLElements" duration-ms="176" started-at="2017-06-12T12:29:25Z" description="See ISO 19136: Annex I" finished-at="2017-06-12T12:29:25Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              org.opengis.cite.validation.SchematronValidator.validate(Ljavax/xml/transform/Source;)Ljavax/xml/transform/Result;
+            </message>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForDeprecatedGMLElements -->
+        <test-method status="FAIL" signature="checkGMLSchematronConstraints()[pri:0, instance:org.opengis.cite.iso19136.data.SchematronTests@7e439bf8]" name="checkGMLSchematronConstraints" duration-ms="264" started-at="2017-06-12T12:29:25Z" description="Checks general Schematron rules specified in ISO 19136" finished-at="2017-06-12T12:29:25Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              org.opengis.cite.validation.SchematronValidator.validate(Ljavax/xml/transform/Source;)Ljavax/xml/transform/Result;
+            </message>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGMLSchematronConstraints -->
+        <test-method status="FAIL" signature="checkSchematronConstraints()[pri:0, instance:org.opengis.cite.iso19136.data.SchematronTests@7e439bf8]" name="checkSchematronConstraints" duration-ms="0" started-at="2017-06-12T12:29:25Z" description="Checks application-specific Schematron rules" finished-at="2017-06-12T12:29:25Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              org.opengis.cite.validation.SchematronValidator.validate(Ljavax/xml/transform/Source;)Ljavax/xml/transform/Result;
+            </message>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSchematronConstraints -->
+      </class> <!-- org.opengis.cite.iso19136.data.SchematronTests -->
+      <class name="org.opengis.cite.iso19136.data.spatial.CompositeCurveTests">
+        <test-method status="FAIL" signature="findCompositeCurves()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CompositeCurveTests@74f0b76c]" name="findCompositeCurves" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              No gml:CompositeCurve elements were found. expected [false] but found [true]
+            </message>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCompositeCurves -->
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CompositeCurveTests@74f0b76c]" name="initDataFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="SKIP" signature="compositeCurveComponentsAreConnected()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CompositeCurveTests@74f0b76c]" name="compositeCurveComponentsAreConnected" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 11.2.2.2" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compositeCurveComponentsAreConnected -->
+      </class> <!-- org.opengis.cite.iso19136.data.spatial.CompositeCurveTests -->
+      <class name="org.opengis.cite.iso19136.data.spatial.SurfaceTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.spatial.SurfaceTests@3147cbe]" name="initDataFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="PASS" signature="findSurfaces()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.SurfaceTests@3147cbe]" name="findSurfaces" is-config="true" duration-ms="2" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSurfaces -->
+        <test-method status="PASS" signature="surfaceHasValidCRS()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.SurfaceTests@3147cbe]" name="surfaceHasValidCRS" duration-ms="1" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 9.10, 10.1.3.2; ISO 19107: 6.2.2.17" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfaceHasValidCRS -->
+        <test-method status="FAIL" signature="validSurfaceBoundary()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.SurfaceTests@3147cbe]" name="validSurfaceBoundary" duration-ms="36" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 10.5.5, 10.5.11.1; ISO 19107: 6.3.6, 6.3.7.2" finished-at="2017-06-12T12:29:26Z">
+          <exception class="java.lang.NullPointerException">
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSurfaceBoundary -->
+        <test-method status="FAIL" signature="validSurfaceOrientation()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.SurfaceTests@3147cbe]" name="validSurfaceOrientation" duration-ms="22" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 10.5.10; ISO 19107: 6.3.17, 6.4.34" finished-at="2017-06-12T12:29:26Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              Failed to create coordinate transformer.
+            </message>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSurfaceOrientation -->
+      </class> <!-- org.opengis.cite.iso19136.data.spatial.SurfaceTests -->
+      <class name="org.opengis.cite.iso19136.data.spatial.LineStringTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.spatial.LineStringTests@40174b69]" name="initDataFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="SKIP" signature="findLineStrings()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.LineStringTests@40174b69]" name="findLineStrings" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              No gml:Curve elements were found.
+            </message>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findLineStrings -->
+        <test-method status="SKIP" signature="lineHasValidCRS()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.LineStringTests@40174b69]" name="lineHasValidCRS" duration-ms="1" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 9.10, 10.1.3.2; ISO 19107: 6.2.2.17" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lineHasValidCRS -->
+        <test-method status="SKIP" signature="validLineString()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.LineStringTests@40174b69]" name="validLineString" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 10.4.4" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLineString -->
+      </class> <!-- org.opengis.cite.iso19136.data.spatial.LineStringTests -->
+      <class name="org.opengis.cite.iso19136.data.XMLSchemaValidationTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.XMLSchemaValidationTests@33899b63]" name="initDataFixture" is-config="true" duration-ms="1" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="PASS" signature="getXMLSchema(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.XMLSchemaValidationTests@33899b63]" name="getXMLSchema" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:24Z" finished-at="2017-06-12T12:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXMLSchema -->
+        <test-method status="PASS" signature="isXMLSchemaValid()[pri:0, instance:org.opengis.cite.iso19136.data.XMLSchemaValidationTests@33899b63]" name="isXMLSchemaValid" duration-ms="32" started-at="2017-06-12T12:29:24Z" description="See ISO 19136: A.3.4" finished-at="2017-06-12T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isXMLSchemaValid -->
+      </class> <!-- org.opengis.cite.iso19136.data.XMLSchemaValidationTests -->
+      <class name="org.opengis.cite.iso19136.data.PropertyValueTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.PropertyValueTests@79c367d]" name="initDataFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:25Z" finished-at="2017-06-12T12:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="PASS" signature="validateLocationName()[pri:0, instance:org.opengis.cite.iso19136.data.PropertyValueTests@79c367d]" name="validateLocationName" duration-ms="11" started-at="2017-06-12T12:29:25Z" description="See ISO 19136: 9.4.2" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLocationName -->
+        <test-method status="PASS" signature="validateLocationReference()[pri:0, instance:org.opengis.cite.iso19136.data.PropertyValueTests@79c367d]" name="validateLocationReference" duration-ms="5" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 9.4.2" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLocationReference -->
+      </class> <!-- org.opengis.cite.iso19136.data.PropertyValueTests -->
+      <class name="org.opengis.cite.iso19136.data.spatial.EnvelopeTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.spatial.EnvelopeTests@616ab730]" name="initDataFixture" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="FAIL" signature="findEnvelopes()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.EnvelopeTests@616ab730]" name="findEnvelopes" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              No code 9122 from authority European Petroleum Survey Group found for object of type Unit.
+            </message>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEnvelopes -->
+        <test-method status="SKIP" signature="checkEnvelopePositions()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.EnvelopeTests@616ab730]" name="checkEnvelopePositions" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19107: 6.4.3.2, 6.4.3.3" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnvelopePositions -->
+        <test-method status="SKIP" signature="envelopeHasValidCRS()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.EnvelopeTests@616ab730]" name="envelopeHasValidCRS" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 10.1.3.2" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- envelopeHasValidCRS -->
+      </class> <!-- org.opengis.cite.iso19136.data.spatial.EnvelopeTests -->
+      <class name="org.opengis.cite.iso19136.data.spatial.CurveTests">
+        <test-method status="PASS" signature="initDataFixture(org.testng.ITestContext)[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CurveTests@655d9d7f]" name="initDataFixture" is-config="true" duration-ms="1" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                org.testng.TestRunner@3ad3650a
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataFixture -->
+        <test-method status="SKIP" signature="findCurves()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CurveTests@655d9d7f]" name="findCurves" is-config="true" duration-ms="0" started-at="2017-06-12T12:29:26Z" finished-at="2017-06-12T12:29:26Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              No gml:Curve elements were found.
+            </message>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCurves -->
+        <test-method status="SKIP" signature="validCurveSegments()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CurveTests@655d9d7f]" name="validCurveSegments" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 10.4.5" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCurveSegments -->
+        <test-method status="SKIP" signature="curveHasValidCRS()[pri:0, instance:org.opengis.cite.iso19136.data.spatial.CurveTests@655d9d7f]" name="curveHasValidCRS" duration-ms="0" started-at="2017-06-12T12:29:26Z" description="See ISO 19136: 9.10, 10.1.3.2; ISO 19107: 6.2.2.17" finished-at="2017-06-12T12:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curveHasValidCRS -->
+      </class> <!-- org.opengis.cite.iso19136.data.spatial.CurveTests -->
+    </test> <!-- GML Documents -->
+  </suite> <!-- gml32-1.25 -->
+</testng-results>
