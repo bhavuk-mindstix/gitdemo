@@ -73,7 +73,7 @@ type jmeter >/dev/null 2>&1 || { echo >&2 "[Error] Jmeter not found.... \n apach
 		##------URL -----------------#
 		if [ ! $url ];
 		then
-			url="http://cite.opengeospatial.org/te2/"
+			url="http://cite.opengeospatial.org/teamengine/"
 			echo "URL was not provided then default will be used: " $url
 		else 
 			echo "URL is using: " $url
@@ -258,6 +258,7 @@ jmeter -n -t $folder_of_jmeter/${var}test.jmx -Juser=$user -Jpassword=$password 
 		#——————- Get the Revision Version from the savedata ——————-#
 
 		string=$(xmllint --xpath "//testResults/httpSample[@lb='formResult']/java.net.URL" $folder_of_jmeter/${var}savedata )
+		#echo "@form result = $string"
 		split_string=$(echo $string | awk -F"&amp;" '{print $1,$2,$3}')
 		set -- $split_string
 		split_string1=$(echo $3 | awk -F"_" '{print $1,$2,$3,$4}')
@@ -289,28 +290,28 @@ jmeter -n -t $folder_of_jmeter/${var}test.jmx -Juser=$user -Jpassword=$password 
 		
 		#----------Check assertion for GML-test -----------------------
 
-		if echo $var | grep -q "gml" || echo $var | grep -q "kml" && [ "$var" != "gml32-doc/" ] ; then
+		#if echo $var | grep -q "gml" || echo $var | grep -q "kml" && [ "$var" != "gml32-doc/" ] ; then
 		
-			assertion_status=$(xmllint --xpath "//testResults/httpSample/assertionResult/failure/text()" $folder_of_jmeter/${var}savedata)
-			   
-			if echo $assertion_status | grep -q "false"; then
+			#assertion_status=$(xmllint --xpath "//testResults/httpSample/assertionResult/failure/text()" $folder_of_jmeter/${var}savedata)
+			## echo "Assertion status = $assertion_status"  
+			#if echo $assertion_status | grep -q "false"; then
 				
-				echo "<b>Test completed as expected (FAILED) :</b> " >> index1.html 
-			else
-				if echo $assertion_status | grep -q "true"; then
-					echo "<b>Test completed as expected (PASSED) :</b> " >> index1.html
-				fi
-			fi
+				#echo "<b>Test completed as expected (FAILED) :</b> " >> index1.html 
+			#else
+				#if echo $assertion_status | grep -q "true"; then
+					#echo "<b>Test completed as expected (PASSED) :</b> " >> index1.html
+				#fi
+			#fi
 
-			if echo $result | grep -q "200"; then
+			#if echo $result | grep -q "200"; then
  
-				echo "SUCCESS<BR/>">> index1.html
-			else
-				echo "FAILED<BR/>">> index1.html
+				#echo "SUCCESS<BR/>">> index1.html
+			#else
+				#echo "FAILED<BR/>">> index1.html
 				
-			fi
+			#fi
 		
-		fi
+		#fi
 	fi
 done
 
@@ -342,7 +343,8 @@ jmeter -n -t $folder_of_jmeter/REST_API/${rest_var}test.jmx -Jserver=$server -Jh
 
 		rest_result=$(cat $folder_of_jmeter/REST_API/${rest_var}savedata | grep 'lb="HTTP_Request"' | awk -v FS='(rc="|")' '{print $12}')
 
-		rest_testname=$(cat -n $folder_of_jmeter/REST_API/${rest_var}savedata |  grep "&lt;suite duration-ms" | tail -2 | awk -v FS='(name=&quot;|&quot;)' '{print $6}')
+		#rest_testname=$(cat -n $folder_of_jmeter/REST_API/${rest_var}savedata |  grep "&lt;suite duration-ms" | tail -2 | awk -v FS='(name=&quot;|&quot;)' '{print $6}')
+		rest_testname=$(cat -n $folder_of_jmeter/REST_API/${rest_var}savedata |  grep "suite" | head -1 | awk -v FS='(name=&quot;|&quot;)' '{print $2}')
 			
 		echo "<BR/><b>REST Test Name :</b> $rest_testname" >> index1.html
 		echo "<BR/><b>REST Test run finishes successfully  :</b> " >> index1.html
@@ -358,38 +360,38 @@ jmeter -n -t $folder_of_jmeter/REST_API/${rest_var}test.jmx -Jserver=$server -Jh
 		fi
 		
 		if [ "$rest_var" = "gml32-POST/" ]; then
+		(xmllint --xpath "string(//responseData)" $folder_of_jmeter/REST_API/${rest_var}savedata) > $folder_of_jmeter/REST_API/${rest_var}testresult
 		
-		#-------------Check expected result is failed or passed -------------------------
-		#tr -d "null" < $folder_of_jmeter/REST_API/${rest_var}testresult > $folder_of_jmeter/REST_API/${rest_var}testresults
-
-		#mv -bfv $folder_of_jmeter/REST_API/${rest_var}testresults $folder_of_jmeter/REST_API/${rest_var}testresult >/dev/null 2>&1
+		gml32_post=$(xmllint --xpath "(//testng-results/@failed)" $folder_of_jmeter/REST_API/${rest_var}testresult)
 		
-		sed -i '/null/d' $folder_of_jmeter/REST_API/${rest_var}testresult
-		gml32_post=$(xmllint --xpath "string(//test-method/@status)" $folder_of_jmeter/REST_API/${rest_var}testresult)
-	
-			echo "<b>Test completed as expected (FAIL) :</b> " >> index1.html 
-			if echo $gml32_post | grep -q "FAIL"; then
-				
-				echo "SUCCESS<BR/>">> index1.html
-			else
+		#sed -i '/null/d' $folder_of_jmeter/REST_API/${rest_var}testresult
+		#gml32_post=$(xmllint --xpath "string(//test-method/@status)" $folder_of_jmeter/REST_API/${rest_var}testresult)
+		#echo "gml post = $gml32_post"
+			
+				echo "<b>Test completed as expected (FAIL) :</b> " >> index1.html 
+			if echo $gml32_post | grep -q "0"; then
 				
 				echo "FAILED<BR/>">> index1.html
+			else
+				
+				echo "SUCCESS<BR/>">> index1.html
 				
 			fi
 		
 		#----------- Expected Result END -----------#		
 		
-		echo "<BR/><b>Following is the Result :</b> <BR/> <pre>" >> index1.html
+		  echo "<BR/><b>Following is the Result :</b> <BR/> <pre>" >> index1.html
 
 			while read line; do    
 		      		encodeData=$(echo "$line" | perl -MHTML::Entities -pe 'encode_entities($_)') 
-				echo "$encodeData<br/>" >> index1.html
 
+				echo "$encodeData<br/>" >> index1.html
+	 			#echo "dvdsvv--inside testresult"
 			done < $folder_of_jmeter/REST_API/${rest_var}testresult
 
 		echo "</pre>" >> index1.html
 		fi
-	done
+	done    
 
 
 	#--------------------------------------------------
