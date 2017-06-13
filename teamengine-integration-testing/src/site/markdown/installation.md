@@ -36,9 +36,6 @@ against the top-level POM.
         					|-- site
         						|-- markdown
         						|-- resources
-        					|-- target
-        						|-- maven-archiver
-        						|-- site
         				|-- LICENCE
         				|-- pom.xml
         				|-- README.d
